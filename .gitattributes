@@ -1,0 +1,4 @@
+datasets/creditcard.csv filter=lfs diff=lfs merge=lfs -text
+datasets/test_transaction.csv filter=lfs diff=lfs merge=lfs -text
+datasets/train_transaction.csv filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
